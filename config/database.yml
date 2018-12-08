@@ -52,3 +52,4 @@ production:
   database: clock1440_production
   username: clock1440
   password: <%= ENV['CLOCK1440_DATABASE_PASSWORD'] %>
+  socket: /var/lib/mysql/mysql.sock
