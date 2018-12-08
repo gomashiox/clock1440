@@ -50,6 +50,6 @@ test:
 production:
   <<: *default
   database: clock1440_production
-  username: clock1440
+  username: root
   password: <%= ENV['CLOCK1440_DATABASE_PASSWORD'] %>
   socket: /var/lib/mysql/mysql.sock
