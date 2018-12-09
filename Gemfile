@@ -31,6 +31,11 @@ gem 'jbuilder', '~> 2.5'
   gem 'haml-rails'
   gem 'erb2haml'
   gem "font-awesome-rails"
+  gem 'capistrano'
+  gem 'capistrano-rbenv'
+  gem 'capistrano-bundler'
+  gem 'capistrano-rails'
+  gem 'capistrano3-unicorn'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
