@@ -36,6 +36,8 @@ gem 'jbuilder', '~> 2.5'
   gem 'capistrano-bundler'
   gem 'capistrano-rails'
   gem 'capistrano3-unicorn'
+  gem 'carrierwave'
+  gem 'fog-aws'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
@@ -70,9 +72,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 
-group :production do
-  gem 'unicorn'
-end
+
 group :production do
   gem 'unicorn'
 end
